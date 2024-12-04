@@ -1,0 +1,49 @@
+/* FONTE ALEXANDRIA */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+    
+html {
+    scroll-behavior: smooth; /* Faz a rolagem entre as seções ser suave */
+}
+
+
+#participe {
+    scroll-margin-top: 80px; /* Define o espaçamento do topo */
+    height: 889px;
+    
+    
+}
+  
+ 
+  .participe {
+    background-color: #ffffff;
+    max-width: 100%;
+    
+  }
+ 
+ 
+  /* PARTICIPE */
+
+  .h1participe {
+    background-color: #A33A9C;
+    color: #f7f3fd;
+    margin-top: 0;
+    font-family: "Alexandria", sans-serif;
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+}
+   
+
+
+ .textoparticipe span { 
+  font-weight: 600;
+}
+
+.textoparticipe li {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 290;
+  list-style: none;
+  line-height: 1.9;
+}
+  /* PARTICIPE */

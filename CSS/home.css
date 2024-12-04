@@ -1,0 +1,191 @@
+/* FONTE ALEXANDRIA */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+
+* {
+    font-family: "Alexandria", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+section {
+    scroll-margin-top: 80px;
+    /* Define o espaçamento do topo */
+}
+
+.containerhome {
+    background-color:  #EFD7FF;
+    width: 100%;
+    height: 940px;
+}
+.containerhome nav ul li a:hover::after {
+    width: 100%;
+}
+
+.containerhome nav ul li a::after { 
+    content: " ";
+    border-radius: 5px;
+    transition: all 0.6s ease;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.logo img {
+   
+    height: 89px;
+    width: 255px;
+    margin-top: 3px;
+    margin-left: 46px;
+
+}
+
+
+nav {
+    background-color: #C899E4;
+    display: flex;
+    justify-content: space-around;
+    height: 95px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-top: 0;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: -401px;
+    gap: 20px;
+}
+
+.lista li a {
+    text-decoration: none;
+    color: #0f0e0e;
+    font-size: 15px;
+    margin: 3px 0px 4px 9px;
+    font-weight: 400;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -87px;
+}
+
+.card img,
+.card2 a img {
+    max-width: 400px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.card a img {
+    max-width: 280px;
+}
+
+.card,
+.card2 {
+    margin: 20px 0 20px 0;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    margin: 30px auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner img {
+    width: 1071px;
+    height: 460px;
+    margin: 83px 0 0 79px;
+}
+
+.banner h1 {
+    color: aliceblue;
+    font-size: 44px;
+    margin: 82px 0 0 -591px;
+}
+
+.bannerText p {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0px 0 0 -588px;
+    font-weight: 100;
+}
+
+.banner figure {
+    margin-right: 150px;
+}
+
+a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+}
+
+.image-container {
+    width: 240px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 90px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 0px;
+    opacity: 0.8;
+}
+
+.image-container span {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    margin: 117px 0 0 -191px;
+}
+
+.image-container:hover {
+    transform: scale(1.05);
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.image-container:hover span {
+    opacity: 1;
+}

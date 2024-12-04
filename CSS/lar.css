@@ -1,0 +1,80 @@
+/* FONTE ALEXANDRIA */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth; /* Faz a rolagem entre as seções ser suave */
+}
+
+#lar {
+    scroll-margin-top: 80px; /* Define o espaçamento do topo */
+}
+
+
+.lar {
+    background-color: #743411;
+    color: #f7f3fd;
+    padding: 25px;
+    text-align: center;
+    margin-top: 0;
+    font-family: "Alexandria", sans-serif;
+    font-size: 25px;
+}
+
+
+
+.textolar li {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 290;
+    list-style: none;
+}
+
+
+.textolar span{
+    color: #613720;
+    font-weight: 600;
+}
+
+.contato-lar {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+
+.buttomEnteemcontato {
+    background-color: #A711BE;
+    color: white;
+    border: none;
+    border-radius: 65px;
+    padding: 13px 14px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: -13px;
+    display: inline-block; /*  link se comporte como um botão */
+    text-decoration: none; 
+}
+
+
+.contato-lar button:hover {
+    background-color: #A711BE;
+    transform: scale(1.02);
+}
+
+.contato-lar button:active {
+    background-color: #A711BE;
+    transform: scale(0.98);
+}
+
+.contato-lar p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 290;
+    margin-top: 48px;
+    text-align: center;
+}

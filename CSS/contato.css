@@ -1,0 +1,422 @@
+/* FONTE ALEXANDRIA */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+
+.textoslt {
+  margin: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin: 20px;
+}
+
+-ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+-li {
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+
+/* INICIO DA PÁGINA WEB CONTATO */
+
+.backgrounddoe {
+  background-color: #ffffff;
+}
+
+
+main {
+  max-width: 1200px;
+  align-items: center;
+  height: auto;
+  padding: 25px 0;
+  margin: 0px auto;
+
+}
+
+.container_doe {
+  max-width: 1920px;
+  margin: 0 auto;
+
+}
+
+.textoPrincipal {
+
+  font-size: 18px;
+  padding: 0 50px;
+  font-weight: 290;
+  text-align: left;
+  margin-top: 58px;
+}
+
+.textoPrincipal span {
+  color: #3A8CA3;
+  font-weight: 400;
+}
+
+.subtituloComoAjudar {
+  color: rgb(32, 161, 161);
+  margin-top: 10px;
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.lista-comoAjudar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+
+.lista-contato ul li {
+  margin-top: 10px;
+}
+
+
+.ul-ajudar {
+  padding: 20px 0;
+}
+
+.ul-ajudar li {
+  display: list-item;
+  margin: 0 5px;
+  list-style: inside;
+  font-size: 19px;
+  font-weight: 290;
+  margin-top: 12px;
+
+}
+
+.titulocentral {
+  background-color: rgb(32, 161, 161);
+  margin-top: 0;
+  color: #f7f3fd;
+  font-family: "Alexandria", sans-serif;
+  padding: 35px;
+  text-align: center;
+  font-size: 25px;
+
+
+}
+
+.caixa_txt_1,.caixa_txt_2,.fraseEfeito2 {
+
+  text-align: center;
+  padding: 20px 25px;
+  background-color: white;
+  margin: 20px;
+  font-size: 18px;
+
+}
+
+p {
+  text-align: justify;
+  font-size: 25px;
+  justify-content: center;
+  font-family: "Alexandria", sans-serif;
+}
+
+.pagradecimento ,.pagradecimento2{
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 25px;
+    background-color: white;
+    font-weight: 290;
+}
+
+
+/* DIV IMAGEM - FLEX-BOX */
+.containercontato {
+  width: 100%;
+  margin: -66px 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box1 {
+  width: 40%;
+  margin: 0 auto;
+  padding: 39px;
+
+}
+
+.box1 img {
+  width: 461px;
+  margin-left: 13px;
+}
+
+
+
+
+.box2 {
+  width: 40%;
+  margin: 0 auto;
+  padding: 39px;
+}
+
+.box2 img {
+  margin: -66px 0px 0px -194px;
+  width: 576px;
+}
+
+
+
+
+
+.cards.antes {
+  display: table;
+  width: 100%;
+  height: 35%;
+  padding: 100px 0;
+  color: white;
+  background-position: 30% 45%;
+  background-size: cover;
+  filter: blur(6px);
+  position: absolute;
+  font-size: 22px;
+}
+
+.box-pixQrcode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.imgPix {
+  width: 80%;
+  object-fit: cover;  /* Garante que as imagens não distorçam */
+}
+
+.imgQrcode {
+  width: 38%;
+  object-fit: cover;
+}
+
+.item-0 {
+  order: 6;
+  flex-grow: 0;
+
+  align-self: center;
+  margin: 10px;
+
+}
+
+.item-1 {
+  order: 6;
+  flex-grow: 0;
+  align-self: center;
+  margin: 10px;
+  text-align: center;
+  display: block;
+
+}
+
+h3 {
+  background-color: rgb(32, 161, 161);
+  margin-top: 0;
+  color: #f7f3fd;
+  padding: 35px;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+/* INICIO BOTÃO ENTRE EM CONTATO */
+
+
+.boxbuttom {
+  text-align: center;
+  margin-top: 86px;
+}
+
+.buttomEnteemcontato {
+  background-color: #A711BE;
+  color: white;
+  border: none;
+  border-radius: 65px;
+  padding: 13px 14px;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-bottom: -13px;
+  display: inline-block;
+  /* Para garantir que o link se comporte como um botão */
+  text-decoration: none;  /* Remover sublinhado do link */
+}
+
+a:hover {
+  color: white;
+  transform: scale(1.02);
+}
+
+a:active {
+  background-color: #5A0D6C;
+  transform: scale(0.98);
+}
+
+
+/* Estilo do fundo de sobreposição */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(47 45 45 / 22%);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  z-index: 9999; 
+}
+
+/* Quando o pop-up é aberto */
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Estilo do pop-up */
+.popup {
+  position: absolute;
+  top: 10vh; /* Adiciona uma distância do topo da tela */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(-50%); /* Ajuste para centralizar totalmente */
+  background: #ffffff;
+  width: 80%; /* Largura do popup (80% da tela) */
+  max-width: 600px; /* Limita a largura máxima do popup */
+  height: 820px;
+  max-height: 1000px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque */
+  font-size: 16px;
+  border-radius: 8px; 
+  padding: 20px;
+  z-index: 10000; /* Garantir que o popup fique sobre a overlay */
+  overflow-y: auto; /* Permite rolar o conteúdo se for maior que a altura */
+}
+
+/* Título do pop-up */
+.popup h2 {
+  margin-top: 0;
+  color: #841273;
+  font-size: 32px;
+  text-align: center;
+  padding: 20px 0; 
+}
+
+/* Fechar o pop-up */
+.popup .close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  transition: none;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+/* Conteúdo dentro do pop-up */
+.popup .content {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0; 
+}
+
+/* Lista de contato */
+.lista-contato {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.lista-contato span {
+  font-weight: bold;
+  color: #841273; 
+}
+
+.lista-contato li {
+  font-size: 16px;
+  padding: 10px 0;
+  margin: 10px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 25px;
+}
+
+.lista-contato li::before {
+  content: "•";
+  font-size: 25px;
+  color: #A711BE;
+  margin-right: 10px;
+}
+
+.lista-contato li:last-child {
+  border-bottom: none;
+}
+
+/* Imagem do pop-up */
+.popup img {
+  display: block;
+  margin: 20px auto;
+  width: 429px;
+  height: 250px;
+  border-radius: 8px;
+  margin-top: -21px;
+}
+
+footer {
+  background-color: #C899E4;
+  height: 60px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 0 20px;
+}
+
+footer p {
+  font-size: 18px;
+  margin: 0;
+  text-align: center; 
+  flex-grow: 1; /* Faz o parágrafo crescer para ocupar o espaço restante */
+  color: #000000;
+}
+
+footer a {
+  margin: 0 10px; 
+}
+
+footer a img {
+  max-width: 40px;
+  max-height: 40px;
+  display: inline-block; /* Garante que as imagens sejam alinhadas em linha */
+}

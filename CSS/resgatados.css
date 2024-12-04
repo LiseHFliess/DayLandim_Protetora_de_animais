@@ -1,0 +1,111 @@
+/*FONTE ALEXANDRIA COLEM O LINK ABAIXO E APLIQUEM NO BODY */
+/* RESGATADOS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    /* Faz a rolagem entre as seções ser suave */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#resgatados {
+    scroll-margin-top: 90px;
+}
+
+
+
+#resgatados {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+}
+
+#resgatados .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.titulo h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #6a2c8d;
+    margin-bottom: 20px;
+}
+
+#resgatados h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 290;
+}
+
+.resgatados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 colunas */
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.resgatados div {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    /* Afastamento adicional entre as linhas */
+}
+
+.resgatados img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
+}
+
+
+.resgatados h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.resgatados p {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 290;
+}
+
+.contato {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contato .buttomEnteemcontato {
+    background-color: #6a2c8d;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 23px;
+    font-size: 17px;
+    transition: background-color 0.3s;
+}
+
+.contato .buttomEnteemcontato:hover {
+    background-color: #9a5ca1;
+}
+
+.contato p {
+    font-size: 16px;
+    margin-top: 44px;
+    font-weight: 290;
+    text-align: center;
+}
